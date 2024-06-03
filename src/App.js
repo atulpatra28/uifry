@@ -91,8 +91,17 @@ function App() {
         onClick={handleClick}
       />
     </div>
+    <img src="/pics/yr.png" style={{ position: 'absolute', top: '800px' }} />
+    <img src="/pics/ry.png" style={{ position: 'absolute', top: '1700px', left:'650px' }} />
+    <img src="/pics/yrt.png" style={{ position: 'absolute', top: '2200px', left:'130px' }} />
+    <img src="/pics/ry.png" style={{ position: 'absolute', top: '3125px', left:'20px' }} />
+
+    <img src="/pics/testimonial.png" style={{ position: 'absolute', top:'2900px'}} />
+    <img src="/pics/faq.png" style={{ position: 'absolute', top:'3800px' ,left:'30px'}} />
+
     <img src="/pics/rem.png" style={{ position: 'absolute', top: '800px' }} />
     </div>
+    
     
     
   );

@@ -146,7 +146,7 @@
   z-index: -999;
 }
 
-.circular-fade-red2 {
+.circular-fade-red-ph {
   top:90px;
   left:900px;
   position:relative;
@@ -165,5 +165,13 @@
   z-index: -999;
 }
 
-
+.circular-fade-red-2 {
+  top:1000px;
+  left:100px;
+  position:absolute;
+  width: 500px; /* Adjust width as needed */
+  height: 400px; /* Adjust height as needed */
+  background-image: radial-gradient(circle, red 0%, transparent 70%); /* Adjust color and fade distance */
+  z-index:-1;
+}
 
