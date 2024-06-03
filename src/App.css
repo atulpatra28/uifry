@@ -1,38 +1,121 @@
-.App {
-  text-align: center;
+/* App.css */
+/* .App {
+  position: relative;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.image-container {
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.image-container img {
+  max-width: 100%;
+  height: auto; 
+}*/
+/* App.css */
+.topbar {
+  position: absolute;
+  top: 25px;
+  left:50%;
+  text-align:center;
+  transform: translateX(-50%);
+  width: 1200px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.star1 {
+  width: 64px; /* Adjust the width as needed */
+  height: 64px; /* Adjust the height as needed */
+  position: absolute;
+  left: 94%;
+  top: 55px;
 }
 
-.App-link {
-  color: #61dafb;
+.star2 {
+  width: 2px; /* Adjust the width as needed */
+  height: 2px; /* Adjust the height as needed */
+  position: relative;
+  left: 0%;
+  transform: rotate(-45deg);
+  top: 115px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sentence p {
+  font-size: 75px; /* Adjust the font size as needed */
+  position: absolute;
+  top: 270px; /* Move the container 50% down from the top */
+  left: 420px; /* Move the container 50% from the left */
+  transform: translate(-50%, -50%); /* Translate the container -50% of its own width and height */
+  color: #000; /* Set font color to black */
+  font-weight:bold;
+  font-family:'bodoni-mt-black';
+  line-height: 0.9;}
+
+.sentence2 p {
+  font-size: 12px; /* Adjust the font size as needed */
+  position: absolute;
+  top: 370px; /* Move the container 50% down from the top */
+  left: 305px; /* Move the container 50% from the left */
+  transform: translate(-50%, -50%); /* Translate the container -50% of its own width and height */
+  color: #000; /* Set font color to black */
+  /* font-weight:bold;
+  font-family:'bodoni-mt-black'  */
+}
+
+.phone1{
+  position:absolute;
+  left:700px;
+  top:10vh;
+  z-index:3;
+}
+.phone2{
+  position:absolute;
+  left:830px;
+  top:21vh;
+  z-index:2;
+}
+.phone3{
+  position:absolute;
+  left:960px;
+  top:32vh;
+  z-index:1;
+}
+
+.ellipse1{
+  position:absolute;
+  left:870px;
+  top:33vh;
+}
+
+.ellipse2{
+  position:absolute;
+  left:895px;
+  top:30vh;
+}
+.ellipse3{
+  position:absolute;
+  left:915px;
+  top:27vh;
+}
+
+.getstarted
+{
+  position:absolute;
+  top:450px;
+  left:120px;
+
+}
+.watchvid
+{
+  position:absolute;
+  top:450px;
+  left:300px;
+}
+
+.ribbon{
+  position:absolute;
+  top:510px;
+  left:120px;
 }
