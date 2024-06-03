@@ -1,7 +1,7 @@
-// App.js
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import ImageButton from './components/imgbutton';
+import Cursor from './components/cursor';
 
 
 function App() {
@@ -33,9 +33,10 @@ function App() {
 
   return (
     <div className="App">
+      <Cursor/>
       <div className="topbar">
       <ImageButton
-        src="pics/topbar.png"  // Replace with your image path
+        src="pics/topbar.png"
         alt="Button Image"
         onClick={handleClick}
       />
@@ -64,32 +65,32 @@ function App() {
       <div className='circular-fade-red-ph'/>
 
       <div className='phone2'>
-        <img src="/pics/miph.png" alt="front phone"/>
+        <img src="/pics/miph.png" alt="middle phone"/>
       </div>
       <div className='phone3'>
-        <img src="/pics/baph.png" alt="front phone"/>
+        <img src="/pics/baph.png" alt="back phone"/>
       </div>
       <div className='ellipse1'>
-        <img src="/pics/ellipse.png" alt="front phone"/>
+        <img src="/pics/ellipse.png" alt="ellipse"/>
       </div>
       <div className='ellipse2'>
-        <img src="/pics/ellipse.png" alt="front phone"/>
+        <img src="/pics/ellipse.png" alt="ellipse"/>
       </div>
       <div className='ellipse3'>
-        <img src="/pics/ellipse.png" alt="front phone"/>
+        <img src="/pics/ellipse.png" alt="ellipse"/>
       </div>
       <div className='ribbon'>
         <img src="/pics/ribbon.png" alt="ribbon"/>
       </div>
       <div className='watchvid'>
       <ImageButton
-        src="pics/watchvid.png"  // Replace with your image path
+        src="pics/watchvid.png"  
         alt="Button Image"
         onClick={handleClick}
       />      </div>
       <div className="getstarted">
       <ImageButton
-        src="pics/getstarted.png"  // Replace with your image path
+        src="pics/getstarted.png"  
         alt="Button Image"
         onClick={handleClick}
       />

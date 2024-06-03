@@ -15,7 +15,7 @@
   max-width: 100%;
   height: auto; 
 }*/
-/* App.css */
+
 .topbar {
   position: absolute;
   top: 25px;
@@ -26,16 +26,16 @@
 }
 
 .star1 {
-  width: 64px; /* Adjust the width as needed */
-  height: 64px; /* Adjust the height as needed */
+  width: 64px; 
+  height: 64px; 
   position: absolute;
   left: 94%;
   top: 55px;
 }
 
 .star2 {
-  width: 2px; /* Adjust the width as needed */
-  height: 2px; /* Adjust the height as needed */
+  width: 2px; 
+  height: 2px; 
   position: relative;
   left: 0%;
   transform: rotate(-45deg);
@@ -43,24 +43,23 @@
 }
 
 .sentence p {
-  font-size: 65px; /* Adjust the font size as needed */
+  font-size: 60px; 
   position: absolute;
-  top: 270px; /* Move the container 50% down from the top */
-  left: 455px; /* Move the container 50% from the left */
-  transform: translate(-50%, -50%); /* Translate the container -50% of its own width and height */
-  color: #000; /* Set font color to black */
+  top: 270px; 
+  left: 430px; 
+  transform: translate(-50%, -50%); 
+  color: #000; 
   font-weight:bold;
   font-family: 'Arial Black', 'Helvetica Bold', Impact, sans-serif;  line-height: 0.9;}
 
 .sentence2 p {
-  font-size: 12px; /* Adjust the font size as needed */
+  font-size: 12px; 
   position: absolute;
-  top: 370px; /* Move the container 50% down from the top */
-  left: 305px; /* Move the container 50% from the left */
-  transform: translate(-50%, -50%); /* Translate the container -50% of its own width and height */
-  color: #000; /* Set font color to black */
-  /* font-weight:bold;
-  font-family:'bodoni-mt-black'  */
+  top: 370px; 
+  left: 305px; 
+  transform: translate(-50%, -50%); 
+  color: #000; 
+  
 }
 
 .phone1{
@@ -121,27 +120,27 @@
 .red-patch {
   top:300px;
   left:300px;
-  width: 200px;  /* Adjust width as needed */
-  height: 100px;  /* Adjust height as needed */
+  width: 200px;  
+  height: 100px;  
   background-color: red;
-  border-radius: 50% / 25%;  /* Creates the oval shape */
+  border-radius: 50% / 25%;
 }
 .circular-fade-red {
   top:100px;
   left:300px;
   position:relative;
-  width: 200px; /* Adjust width as needed */
-  height: 200px; /* Adjust height as needed */
-  background-image: radial-gradient(circle, red 0%, transparent 70%); /* Adjust color and fade distance */
+  width: 200px;
+  height: 200px;
+  background-image: radial-gradient(circle, red 0%, transparent 70%);
   z-index: -999;
 }
 .circular-fade-yellow {
   top:0px;
   left:300px;
   position:relative;
-  width: 200px; /* Adjust width as needed */
-  height: 200px; /* Adjust height as needed */
-  background-image: radial-gradient(circle, rgb(247, 213, 118) 0%, transparent 70%); /* Adjust color and fade distance */
+  width: 200px; 
+  height: 200px;
+  background-image: radial-gradient(circle, rgb(247, 213, 118) 0%, transparent 70%);
   z-index: -999;
 }
 
@@ -149,18 +148,18 @@
   top:90px;
   left:900px;
   position:relative;
-  width: 400px; /* Adjust width as needed */
-  height: 400px; /* Adjust height as needed */
-  background-image: radial-gradient(circle, red 0%, transparent 70%); /* Adjust color and fade distance */
+  width: 400px;
+  height: 400px;
+  background-image: radial-gradient(circle, red 0%, transparent 70%);
   z-index:-999;
 }
 .circular-fade-yellow2 {
   top:3px;
   left:300px;
   position:relative;
-  width: 200px; /* Adjust width as needed */
-  height: 200px; /* Adjust height as needed */
-  background-image: radial-gradient(circle, rgb(247, 213, 118) 0%, transparent 70%); /* Adjust color and fade distance */
+  width: 200px;
+  height: 200px;
+  background-image: radial-gradient(circle, rgb(247, 213, 118) 0%, transparent 70%); 
   z-index: -999;
 }
 
@@ -168,9 +167,9 @@
   top:1000px;
   left:100px;
   position:absolute;
-  width: 500px; /* Adjust width as needed */
-  height: 400px; /* Adjust height as needed */
-  background-image: radial-gradient(circle, red 0%, transparent 70%); /* Adjust color and fade distance */
+  width: 500px;
+  height: 400px;
+  background-image: radial-gradient(circle, red 0%, transparent 70%);
   z-index:-1;
 }
 
