@@ -119,3 +119,51 @@
   top:510px;
   left:120px;
 }
+.red-patch {
+  top:300px;
+  left:300px;
+  width: 200px;  /* Adjust width as needed */
+  height: 100px;  /* Adjust height as needed */
+  background-color: red;
+  border-radius: 50% / 25%;  /* Creates the oval shape */
+}
+.circular-fade-red {
+  top:100px;
+  left:300px;
+  position:relative;
+  width: 200px; /* Adjust width as needed */
+  height: 200px; /* Adjust height as needed */
+  background-image: radial-gradient(circle, red 0%, transparent 70%); /* Adjust color and fade distance */
+  z-index: -999;
+}
+.circular-fade-yellow {
+  top:3px;
+  left:300px;
+  position:relative;
+  width: 200px; /* Adjust width as needed */
+  height: 200px; /* Adjust height as needed */
+  background-image: radial-gradient(circle, rgb(247, 213, 118) 0%, transparent 70%); /* Adjust color and fade distance */
+  z-index: -999;
+}
+
+.circular-fade-red2 {
+  top:90px;
+  left:900px;
+  position:relative;
+  width: 400px; /* Adjust width as needed */
+  height: 400px; /* Adjust height as needed */
+  background-image: radial-gradient(circle, red 0%, transparent 70%); /* Adjust color and fade distance */
+  z-index:-999;
+}
+.circular-fade-yellow2 {
+  top:3px;
+  left:300px;
+  position:relative;
+  width: 200px; /* Adjust width as needed */
+  height: 200px; /* Adjust height as needed */
+  background-image: radial-gradient(circle, rgb(247, 213, 118) 0%, transparent 70%); /* Adjust color and fade distance */
+  z-index: -999;
+}
+
+
+

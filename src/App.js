@@ -45,6 +45,11 @@ function App() {
       <div className="sentence" style={{ top: `calc(50% - ${sentenceHeight / 2}px)` }}>
         <p>Make The Best<br/>Financial Decision</p>
       </div>
+      <div className='circular-fade-red'/>
+
+      <div className='circular-fade-yellow'/>
+
+
       <div className='sentence2'>
         <p>Cum Et Convallis Risus Placerat Aliquam, Nunc. Scelerisque Aliquet
           <br/>Faucibus Tincidunt Eu Adipiscing Sociis Arcu Lorem Porttitor.</p>
@@ -52,6 +57,8 @@ function App() {
       <div className='phone1'>
         <img src="/pics/frph.png" alt="front phone"/>
       </div>
+      <div className='circular-fade-red-ph'/>
+
       <div className='phone2'>
         <img src="/pics/miph.png" alt="front phone"/>
       </div>
@@ -68,7 +75,7 @@ function App() {
         <img src="/pics/ellipse.png" alt="front phone"/>
       </div>
       <div className='ribbon'>
-        <img src="/pics/ribbon.png" alt="front phone"/>
+        <img src="/pics/ribbon.png" alt="ribbon"/>
       </div>
       <div className='watchvid'>
       <ImageButton
@@ -84,7 +91,7 @@ function App() {
         onClick={handleClick}
       />
     </div>
-      {/* Other content of your app */}
+    <img src="/pics/rem.png" style={{ position: 'absolute', top: '800px' }} />
     </div>
     
     
