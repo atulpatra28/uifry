@@ -34,8 +34,12 @@ function App() {
   return (
     <div className="App">
       <div className="topbar">
-        <img src="/pics/topbar.png" alt="Top Bar" />
-      </div>
+      <ImageButton
+        src="pics/topbar.png"  // Replace with your image path
+        alt="Button Image"
+        onClick={handleClick}
+      />
+    </div>
       <div className='star1'>
         <img src="/pics/star.png" alt="Star" />
       </div>
@@ -84,7 +88,6 @@ function App() {
         onClick={handleClick}
       />      </div>
       <div className="getstarted">
-      {/* Other content of your app */}
       <ImageButton
         src="pics/getstarted.png"  // Replace with your image path
         alt="Button Image"

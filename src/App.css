@@ -43,15 +43,14 @@
 }
 
 .sentence p {
-  font-size: 75px; /* Adjust the font size as needed */
+  font-size: 65px; /* Adjust the font size as needed */
   position: absolute;
   top: 270px; /* Move the container 50% down from the top */
-  left: 420px; /* Move the container 50% from the left */
+  left: 455px; /* Move the container 50% from the left */
   transform: translate(-50%, -50%); /* Translate the container -50% of its own width and height */
   color: #000; /* Set font color to black */
   font-weight:bold;
-  font-family:'bodoni-mt-black';
-  line-height: 0.9;}
+  font-family: 'Arial Black', 'Helvetica Bold', Impact, sans-serif;  line-height: 0.9;}
 
 .sentence2 p {
   font-size: 12px; /* Adjust the font size as needed */
@@ -137,7 +136,7 @@
   z-index: -999;
 }
 .circular-fade-yellow {
-  top:3px;
+  top:0px;
   left:300px;
   position:relative;
   width: 200px; /* Adjust width as needed */
